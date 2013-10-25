@@ -13,7 +13,9 @@ void Speak(int option);
 
 
 int phraseOptions = 11;
-char *phrase[] = {"Oh my God!\n", "You guys!\n", "Nooooo...\n", 
+char *phrase[] = {"Oh my God!\n", 
+	"You guys!\n", 
+	"Nooooo...\n", 
 	"Aughhhh\n", 
 	"No I don't.\n", 
 	"oh wooow!\n", 
