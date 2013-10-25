@@ -17,7 +17,7 @@ void EmulateJessica(int numLoops) {
 
 
 
-void JessicsSpeak(int option) {
+void JessicaSpeak(int option) {
 
 	printf( "%s", jessicaPhrase[option] );
 }

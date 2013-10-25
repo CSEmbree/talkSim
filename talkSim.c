@@ -56,17 +56,22 @@ void Simulate(int who, int runCount){
 	switch(who) 
 	{
 		case GRADON:
-		    printf("Not yet implimented \n"); break;
+		    printf("Not yet implimented \n"); 
+		    break;
 		case CHRIS:
-		    printf("Not yet implimented \n"); break;
+		    printf("Not yet implimented \n"); 
+		    break;
 		case JENNIFER:
-		    EmulateJennifer( runCount ); break;
+		    EmulateJennifer( runCount );
+		    break;
 		case JESSICA:
-		    printf("Not yet implimented \n"); break;
+		    printf("Not yet implimented \n"); 
+		    break;
 		case CAMERON:
-		    printf("Not yet implimented \n"); break;
+		    printf("Not yet implimented \n"); 
+		    break;
 		default:
-		    printf("No implimented person for this option \n"); break;
+		    printf("No implimented person for this option \n"); 
 	}
 } 
 	

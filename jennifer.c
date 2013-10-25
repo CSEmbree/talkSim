@@ -6,18 +6,18 @@ void EmulateJennifer(int numLoops) {
 	
 	srand(time(NULL));
 
-	int phraseChoice = rand() % phraseOptions;
+	int phraseChoice = rand() % jenniferPhraseOptions;
 
 	for (int i = 0; i < numLoops; ++i) 
 	{
-		Speak(phraseChoice);	
+		JenniferSpeak(phraseChoice);	
 		phraseChoice++; //force a new choice for each run
 	}
 }
 
 
 
-void Speak(int option) {
+void JenniferSpeak(int option) {
 
-	printf( "%s", phrase[option] );
+	printf( "%s", jenniferPhrase[option] );
 }

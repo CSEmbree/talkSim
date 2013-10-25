@@ -1,5 +1,5 @@
-#ifndef JENNIFER_H
-#define JENNIFER_H
+#ifndef TALK_SIM_H
+#define TALK_SIM_H
 
 
 #include <stdio.h>
@@ -8,6 +8,8 @@
 #include <string.h>
 
 #include "jennifer.h"
+#include "chris.h"
+#include "gradon.h"
 
 
 

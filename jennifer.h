@@ -9,11 +9,11 @@
 
 //prototype
 void EmulateJennifer(int numLoops);
-void Speak(int option);
+void JenniferSpeak(int option);
 
 
-int phraseOptions = 11;
-char *phrase[] = {"Oh my God!\n", 
+int jenniferPhraseOptions = 11;
+char *jenniferPhrase[] = {"Oh my God!\n", 
 	"You guys!\n", 
 	"Nooooo...\n", 
 	"Aughhhh\n", 
